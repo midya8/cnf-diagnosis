@@ -1,6 +1,6 @@
 # Repair-policy consequences: method and boundaries
 
-[Live consequence inspector](https://midya8.github.io/diagnoselab/consequences.html) · [Base conflicts and repairs](README.md) · [Base method and seven theory sources](METHOD.md)
+[Live consequence inspector](https://midya8.github.io/cnf-diagnosis/consequences.html) · [Base conflicts and repairs](README.md) · [Base method and seven theory sources](METHOD.md)
 
 ## Question and exact semantics
 
