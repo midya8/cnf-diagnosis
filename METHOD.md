@@ -1,6 +1,6 @@
-# Diagnoselab consistency method
+# CNF diagnosis consistency method
 
-[Live inspector](https://midya8.github.io/diagnoselab/) · [README](README.md)
+[Live inspector](https://midya8.github.io/cnf-diagnosis/) · [README](README.md)
 
 ## Exact finite question
 
