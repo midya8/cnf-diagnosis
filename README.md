@@ -1,9 +1,9 @@
-# Diagnoselab
+# Cnf diagnosis
 
-Diagnoselab finds which removable clauses restore consistency to a small propositional formula. Supply fixed hard CNF clauses, removable soft clauses and positive rational removal costs. It lists every relative minimal unsatisfiable subset (MUS), every minimal correction set (MCS), their hitting-set relationship and the DPLL search for every soft subset. A separate exhaustive truth table checks each result.
+Cnf diagnosis finds which removable clauses restore consistency to a small propositional formula. Supply fixed hard CNF clauses, removable soft clauses and positive rational removal costs. It lists every relative minimal unsatisfiable subset (MUS), every minimal correction set (MCS), their hitting-set relationship and the DPLL search for every soft subset. A separate exhaustive truth table checks each result.
 
-- [Consistency inspector](https://midya8.github.io/diagnoselab/): inspect conflicts, minimal repairs, costs and search traces. See [METHOD.md](METHOD.md).
-- [Consequence inspector](https://midya8.github.io/diagnoselab/consequences.html): ask whether a query clause holds under every or some model of every or some selected repair. See [CONSEQUENCES.md](CONSEQUENCES.md).
+- [Consistency inspector](https://midya8.github.io/cnf-diagnosis/): inspect conflicts, minimal repairs, costs and search traces. See [METHOD.md](METHOD.md).
+- [Consequence inspector](https://midya8.github.io/cnf-diagnosis/consequences.html): ask whether a query clause holds under every or some model of every or some selected repair. See [CONSEQUENCES.md](CONSEQUENCES.md).
 
 Python and independent BigInt JavaScript implementations use exact arithmetic and have no runtime dependencies.
 
@@ -45,7 +45,7 @@ Native JSON and browser JSON.parse differ on duplicate keys, UTF-8 bytes versus 
 
 ## Repair-policy consequences
 
-[Consequence inspector](https://midya8.github.io/diagnoselab/consequences.html) · [Consequence method/sources](CONSEQUENCES.md)
+[Consequence inspector](https://midya8.github.io/cnf-diagnosis/consequences.html) · [Consequence method/sources](CONSEQUENCES.md)
 
 Ask whether one query clause is true in every versus some model, under every versus some selected repair. Compare all-minimal, minimum-cost and minimum-cardinality families with all ties retained. Full countermodels and negated-query DPLL traces check entailment; a shared-clause intersection baseline is kept distinct. Strict controls separate quantifiers and show policy reversal. Empty repair families are inapplicable, not vacuous certainty.
 
